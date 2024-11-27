@@ -1,0 +1,36 @@
+#div{
+    border-color: rgb(7, 218, 21);
+    border-style: solid;
+    border-width: 5px;
+    height: 550px;
+    width: 550px;
+    border: 10PX dotted;
+}
+@media screen and (min-width:0px) and (max-width:320px){
+    #div{
+        /* background-color: palevioletred; */
+        background-repeat: no-repeat;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgsvuFZvhYr6bsM86LuIfdglISMk1eLYbYCg&s);
+        
+    }
+}
+@media screen and (min-width:340px) and (max-width:500px){
+    #div{
+        /* background-color:green; */
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG0jW6rMUhxLYkIAHM_g8k-meU9U4RqOlRpw&s);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: aqua;
+    }
+}
+@media screen and (min-width:500px) and (max-width:12000px){
+    #div{
+        /* background-color:blue; */
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgl-cJ0BgNUU8WoEKY11IiFDOphGoK8BGn1w&s);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}
