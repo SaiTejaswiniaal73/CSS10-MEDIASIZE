@@ -4,25 +4,32 @@ img{
 
    
 }
-@media  screen and (orientation:landscape) {
-    body{
+ @media  screen and (orientation:portrait)
+    {
+        body{
         background-color: aqua;
     }
-    .main{
-        border: 5px solid rgb(167, 145, 241);
-        background-color: rgba(47, 189, 255, 0.217);
-        padding: 20px;
+            .main
+            {
+                border: 2px solid rgb(194, 38, 27);
+                padding: 20px;
+                background-color: cadetblue;
+            }
+   
     }
-}
-@media screen and (orientation:portrait) {
-    body{
+    @media  screen and (orientation:landscape)
+    {
+        body{
         background-color: yellowgreen;
     }
-    .main{
-        border: 5px solid rgba(224, 112, 170, 0.998);
-        background-color: rgb(228, 11, 119);
+            .main
+            {
+                border: 2px solid rgb(67, 198, 19);
+                padding: 20px;
+                background-color: rgb(222, 28, 176);
+            }
+   
     }
-}
 .main{
     display: flex;
     flex-flow: wrap;
